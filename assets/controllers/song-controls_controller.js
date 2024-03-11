@@ -13,8 +13,6 @@ export default class extends Controller {
 
 
 
-
-        
         if (currentAudio && !currentAudio.paused) {
             currentAudio.pause();
 
